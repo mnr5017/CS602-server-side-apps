@@ -1,0 +1,33 @@
+<div class="table-responsive">
+  <form method="post" action='/employees/edit/{{data.id}}'>
+    <table class="table table-condensed">
+      <tbody>
+        <tr>
+          <th width="200">Employee Id: </td>
+          <td><input type="text" name="cnumber" required 
+                  value="{{data.employeeId}}"></td>
+        </tr>
+        <tr>
+          <th>First Name: </td>
+          <td><input type="text" name="cfirst" required size="40" 
+                  value="{{data.employeeFirstName}}"></td>
+        </tr>
+        <tr>
+          <th>Last Name: </td>
+          <td><input type="text" name="clast" size="40" 
+                  value="{{data.employeeLastName}}"></td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <tr>
+          <td></td>
+          <td>
+              <input type="submit" value="Save" class="btn btn-success">
+              <input type="button" value="Cancel" class="btn btn-danger"
+                  class="cancel" onclick="cancelAdd()">
+          </td>
+        </tr>
+      </tfooter>
+    </table>
+  </form>
+</div>
