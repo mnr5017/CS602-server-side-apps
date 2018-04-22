@@ -1,9 +1,4 @@
-//Mark Ryan
-//CS602 - Module 3
-//Sept 26, 2017
-
 //employeesDb.js
-
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
