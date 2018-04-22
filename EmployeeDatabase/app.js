@@ -1,9 +1,4 @@
-//Mark Ryan
-//CS602 - Module 3
-//Sept 26, 2017
-
 //app.js
-
 var express = require('express');
 var bodyParser = require('body-parser');
 var handlebars = require('express-handlebars');
